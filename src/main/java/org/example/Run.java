@@ -1,12 +1,13 @@
 package org.example;
 import java.util.*;
 import static org.example.Others.initSetLaptop;
+import static org.example.Others.printSet;
 
 public class Run {
     public static void run(){
         Set<Laptop> laptopSet = new HashSet<>();
         initSetLaptop(laptopSet);
-        //printSet(laptopSet);
+        printSet(laptopSet);
 
         initQuestion();
     }
